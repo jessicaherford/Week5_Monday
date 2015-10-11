@@ -23,14 +23,19 @@ genList();
 
 //3. Display the item quantity next to it's name. (  i.e. Tomatoes (5)  )
 
-//. When an item is hovered over, it's background should darken slightly. This can be done through CSS but use
+//4. Display total quantity and cost on the page.
+
+//5. When an item is hovered over, it's background should darken slightly. This can be done through CSS but use
 //   JS for practice.
 
-//. When and item is double-clicked, give it the class 'selected' and have it's background remain slightly darkened.
+//6. When and item is double-clicked, give it the class 'selected' and have it's background remain slightly darkened.
 
-//. When 'Remove Item' is clicked, delete the item from the list.
+//7. When 'Remove Item' is clicked, delete the item from the list. Have the item .fadeOut()
 
-//. When 'Add item' is clicked, a new item should be added to the list. 'Status' should default as 'needed'.
+//8. When 'Add item' is clicked, a new item should be added to the list. 'Status' should default as 'needed'.
+
+//9. ** Have total quantity and cost update when items are added or removed!
+
 
 
 
