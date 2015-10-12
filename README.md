@@ -21,10 +21,5 @@ $('li').each(function(){
 })
 ```
 
-## Event Methods with .on()
-
-## Event handling
-
-## More Effects!!
 
 ## In Class Exercise: List Animation !!
