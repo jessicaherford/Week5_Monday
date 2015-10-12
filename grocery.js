@@ -9,14 +9,7 @@ $(document).ready(function(){
     {name: "Limes", status: "complete", price: ".33", quantity: 3},
     {name: "Jalapeno", status: "complete", price: ".15", quantity: 2}
   ];
-  console.log(groceries);
 //1. Add groceries to <ul>. Store status, price and quantity as data attributes
-function genList(){
-  for(i=0;i<groceries.length;i++){
-    $("#list").append("<li class='listItem' data-status='"+groceries[i].status+"' data-price='"+groceries[i].price+"' data-quantity='"+groceries[i].quantity+"'><h2>"+groceries[i].name+"</h2></li>");
-  }
-}
-genList();
 
 //2. Give 'needed' items a background-color of your choosing. Do the same for 'complete' items.
 //   Choose any text color you desire.
