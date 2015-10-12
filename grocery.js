@@ -34,6 +34,11 @@ $(document).ready(function(){
 
 //11. Create a 'Tighten Budget' button that removes all splurged items from the list.
 
+//12. Add a <span> to each of your <li> items with a Plus Glyphicon (http://getbootstrap.com/components/). When
+//    this is clicked the item should expand down to reveal it's price and quantity.
+
+//13. **BONUS** Incorporate a new property called 'description' and display it however you prefer.
+
 
 
 
