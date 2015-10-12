@@ -1,3 +1,5 @@
+// ***You will need to add the necessary script tags for jQuery and grocery.js to index.html***
+
 $(document).ready(function(){
 
 
