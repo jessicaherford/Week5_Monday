@@ -29,7 +29,10 @@ $(document).ready(function(){
 
 //9. ** Have total quantity and cost update when items are added or removed!
 
+//10. Add a new item with a status called 'splurge'. Any 'splurge' items should have a $$$ before the name and a
+//    unique background-color.
 
+//11. Create a 'Tighten Budget' button that removes all splurged items from the list.
 
 
 
