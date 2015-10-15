@@ -3,7 +3,6 @@
 $(document).ready(function(){
 
 
-
   var groceries = [
     {name: "Tomatoes", status: "needed", price: "3.99", quantity: 5},
     {name: "Onions", status: "needed", price: "1.85", quantity: 2},
@@ -12,6 +11,14 @@ $(document).ready(function(){
     {name: "Jalapeno", status: "complete", price: ".15", quantity: 2}
   ];
 //1. Add groceries to <ul>. Store status, price and quantity as data attributes
+//$("#list").append("<li class='listItem' data-status='' data-price='' data-quantity='' > <h2>"+groceries[i].name+ +groceries[i].price+"</h2> </li>");
+
+
+for(i=0;i<groceries.length; i++){
+  $("#list").append("<li class='listItem' data-status= 'groceries[i].status' data-price='groceries[i].price' data-quantity='groceries[i].price'> <h2>"+groceries[i].name+"  "+groceries[i].price+" "+groceries[i].quantity+"</h2> </li>");
+}
+
+//You’ll need to fill in the status, price and quantity similar to how I did with the name
 
 //2. Give 'needed' items a background-color of your choosing. Do the same for 'complete' items.
 //   Choose any text color you desire.
